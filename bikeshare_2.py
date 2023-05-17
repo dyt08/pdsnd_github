@@ -117,16 +117,6 @@ def load_data(city, month, day):
             break
         print(tabulate(df.iloc[np.arange(i,i+5)], headers ="keys"))
         i+=5
-
-    # display the first/next 5 data using for loop and iterrows() (slower)
-    # for n in range(0,len(df),5):
-    #     display_data = input('\nWould you like to see the first/next 5 data? Type 'yes' or 'no'.\n').lower()
-    #     if display_data == 'yes':
-    #         for index, row in df[n:n+5].iterrows():
-    #             print('-'*45)
-    #             print(row.to_string())
-    #     else:
-    #         break
     
     print('-'*40)
     
