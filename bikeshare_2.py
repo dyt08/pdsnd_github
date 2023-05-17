@@ -75,7 +75,7 @@ def get_filters():
     return city, month, day
 
 
-def load_data(city, month, day):
+def load_data(city: str, month: str, day: str) -> pd.DataFrame:
     """
     Loads data for the specified city and filters by month and day if applicable.
 
