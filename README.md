@@ -18,5 +18,7 @@ This project uses 3 datasets which are not included in this repo:
 - washington.csv
 
 ### Credits
-1. Thanks to Udacity for creating this amazing course
-1. Thanks to Bertelsmann for awarding me this scholarship
+1. Thanks to [Udacity](https://www.udacity.com/) for creating this amazing course
+1. Thanks to [Bertelsmann](https://www.bertelsmann.com/news-and-media/specials/50000-scholarships/#st-1) for awarding me this scholarship
+1. https://udacity.github.io/git-styleguide/
+1. https://sites.google.com/udacity.com/programdatascipython-project3/
