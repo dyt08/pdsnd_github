@@ -152,7 +152,7 @@ def time_stats(df: pd.DataFrame) -> None:
     print('-'*40)
 
 
-def station_stats(df):
+def station_stats(df: pd.DataFrame) -> None:
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
