@@ -133,7 +133,7 @@ def load_data(city: str, month: str, day: str) -> pd.DataFrame:
     return df
 
 
-def time_stats(df):
+def time_stats(df: pd.DataFrame) -> None:
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
